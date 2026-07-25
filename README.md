@@ -19,7 +19,10 @@ trading-person/
 │   ├── 静水2008投资体系.md                       ← 知乎专栏版全文解读（25节系统梳理）
 │   ├── 静水2008知乎回答全集_完整版.md             ← 知乎回答全文完整版
 │   └── A股2026年主赛道与精选策略（静水框架）.md   ← 按静水框架对A股市场的系统筛选
-└── jingshui-growth-stock-skill/                  ← 13个AI Skills（转载自liyiming001）
+├── jingshui2008-skill/                        ← 静水2008 人设技能（AI蒸馏，单文件 SKILL.md）
+│   ├── SKILL.md                               ← 人设配置文件（含开场白/经典语录/心法）
+│   └── SKILL_backup_20260725.md               ← 备份版
+├── jingshui-growth-stock-skill/                  ← 13个AI Skills（转载自liyiming001）
     ├── 13 个子 skill 目录（各含 SKILL.md + test-prompts.json）
     ├── INDEX.md / DIGEST.md / GLOSSARY.md
     └── candidates/ / rejected/ / verified.md
@@ -49,6 +52,13 @@ trading-person/
 | 文档 | 内容 |
 |:----|:----|
 | [大势研判与AI算力链深度分析](AI助手分析/2026-07-25-大势研判与AI算力链深度分析.md) | 大势研判+沪电六标准评分+4万操盘方案+创新药/猪周期观察池 |
+
+### 人设技能（AI 蒸馏）
+
+| 目录 | 内容 | 用途 |
+|:----|:----|:----|
+| `jingshui2008-skill/` | 单文件人设 SKILL.md，含开场白/语录/心法 | 用于 Nuwa 加载静水人设 |
+| `jingshui-growth-stock-skill/` | 13 个子技能（景气度/选股/买入/风控等） | 用于 AI 按框架执行分析 |
 
 ### 原文资料
 
@@ -103,3 +113,4 @@ A股真正能让人赚大钱的只有两种公司：
 | 2026-07-25 | 新增静水2008投资体系.md（知乎专栏排版版） |
 | 2026-07-25 | 新增 jingshui-growth-stock-skill（13个AI Skills，转载自liyiming001） |
 | 2026-07-25 | 新增 AI助手分析/ 目录（AI助手基于静水框架的实战分析，非静水本人） |
+| 2026-07-25 | 新增 jingshui2008-skill/（静水2008单文件人设技能，AI蒸馏版） |
